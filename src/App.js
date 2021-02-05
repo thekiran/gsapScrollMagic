@@ -25,13 +25,13 @@ class App extends Component {
     // vendor
     const vendor = document.createElement('script')
     vendor.async = false
-    vendor.src = '/js/vendors.js'
+    vendor.src = '/JS/vendors.js'
     body.appendChild(vendor)
 
     //index
     const index = document.createElement('script')
     index.async = false
-    index.src = '/js/index.js'
+    index.src = '/JS/index.js'
     body.appendChild(index)
     
     //gsap 
@@ -49,19 +49,19 @@ class App extends Component {
     // lottie
     const lottie = document.createElement('script')
     lottie.async = false
-    lottie.src = '/js/lottie.js'
+    lottie.src = '/JS/lottie.js'
     body.appendChild(lottie)
     
     //scrolllottie
     const scrollLottie = document.createElement('script')
     scrollLottie.async = false
-    scrollLottie.src = '/js/ScrollLottie.js'
+    scrollLottie.src = '/JS/ScrollLottie.js'
     body.appendChild(scrollLottie)
 
     //register plugin 
       const registerPlugin = document.createElement('script')
       registerPlugin.async = false
-      registerPlugin.src = '/js/register.js'
+      registerPlugin.src = 'JS/register.js'
       body.appendChild(registerPlugin)
 
 
@@ -96,13 +96,9 @@ class App extends Component {
   }
   render() {
     return (
-      <Router>
-        <Switch>
-          <Route path="/" exact component={NewHome} />
-          <Route path="/home/" component={Home} />
-          <Route component={NotFound} />
-        </Switch>
-      </Router>
+      <React.Fragment>
+        <NewHome />
+      </React.Fragment>
     );
   }
 }
