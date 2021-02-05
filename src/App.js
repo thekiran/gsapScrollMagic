@@ -31,7 +31,7 @@ class App extends Component {
     //index
     const index = document.createElement('script')
     index.async = false
-    index.src = '/JS/index.js'
+    index.src = '/gsapScrollMagic/static/JS/index.js'
     body.appendChild(index)
     
     //gsap 
@@ -49,19 +49,19 @@ class App extends Component {
     // lottie
     const lottie = document.createElement('script')
     lottie.async = false
-    lottie.src = '/JS/lottie.js'
+    lottie.src = '/gsapScrollMagic/static/JS/lottie.js'
     body.appendChild(lottie)
     
     //scrolllottie
     const scrollLottie = document.createElement('script')
     scrollLottie.async = false
-    scrollLottie.src = '/JS/ScrollLottie.js'
+    scrollLottie.src = '/gsapScrollMagic/static/JS/ScrollLottie.js'
     body.appendChild(scrollLottie)
 
     //register plugin 
       const registerPlugin = document.createElement('script')
       registerPlugin.async = false
-      registerPlugin.src = 'JS/register.js'
+      registerPlugin.src = '/gsapScrollMagic/static/JS/register.js'
       body.appendChild(registerPlugin)
 
 
