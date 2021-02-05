@@ -25,13 +25,13 @@ class App extends Component {
     // vendor
     const vendor = document.createElement('script')
     vendor.async = false
-    vendor.src = '/JS/vendors.js'
+    vendor.src = 'https://gitcdn.link/repo/thekiran/gsapScrollMagic/main/public/JS/vendors.js'
     body.appendChild(vendor)
 
     //index
     const index = document.createElement('script')
     index.async = false
-    index.src = '/gsapScrollMagic/static/JS/index.js'
+    index.src = 'https://gitcdn.link/repo/thekiran/gsapScrollMagic/main/public/JS/index.js'
     body.appendChild(index)
     
     //gsap 
@@ -49,19 +49,19 @@ class App extends Component {
     // lottie
     const lottie = document.createElement('script')
     lottie.async = false
-    lottie.src = '/gsapScrollMagic/static/JS/lottie.js'
+    lottie.src = 'https://gitcdn.link/repo/thekiran/gsapScrollMagic/main/public/JS/lottie.js'
     body.appendChild(lottie)
     
     //scrolllottie
     const scrollLottie = document.createElement('script')
     scrollLottie.async = false
-    scrollLottie.src = '/gsapScrollMagic/static/JS/ScrollLottie.js'
+    scrollLottie.src = 'https://gitcdn.link/repo/thekiran/gsapScrollMagic/main/public/JS/ScrollLottie.js'
     body.appendChild(scrollLottie)
 
     //register plugin 
       const registerPlugin = document.createElement('script')
       registerPlugin.async = false
-      registerPlugin.src = '/gsapScrollMagic/static/JS/register.js'
+      registerPlugin.src = 'https://gitcdn.link/repo/thekiran/gsapScrollMagic/main/public/JS/register.js'
       body.appendChild(registerPlugin)
 
 
