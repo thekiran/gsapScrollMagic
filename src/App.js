@@ -96,9 +96,11 @@ class App extends Component {
   }
   render() {
     return (
-      <React.Fragment>
-        <NewHome />
-      </React.Fragment>
+      <Router>
+        <Switch>
+          <Route path="/" component={NewHome} />
+        </Switch> 
+      </Router>
     );
   }
 }
