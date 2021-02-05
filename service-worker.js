@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gsapScrollMagic/precache-manifest.ba206c54f8eebbbce1c34ddc36ce4380.js"
+  "/gsapScrollMagic/precache-manifest.66a6b457412894cff1481d743cf4c973.js"
 );
 
 workbox.clientsClaim();
